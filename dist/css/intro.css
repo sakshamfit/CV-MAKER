@@ -1,0 +1,22 @@
+/* Home page intro: resumes fly into the CV mark, the CV-MAKER wordmark joins it,
+   and the lockup lands in the header. The overlay only shows while <html> has
+   .intro-playing (set in the page head, played by intro.js). */
+.intro{display:none}
+html.intro-playing .intro{display:block;position:fixed;inset:0;z-index:300;cursor:pointer;animation:intro-failsafe .01s 7s forwards}
+html.intro-playing .nav .nav-bar>.nav-logo{visibility:hidden;animation:logo-failsafe .01s 7s forwards}
+@keyframes intro-failsafe{to{visibility:hidden;opacity:0}}
+@keyframes logo-failsafe{to{visibility:visible}}
+
+.intro-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,#fff 0%,#eef4ff 55%,#dce8ff 100%)}
+.intro-card{position:absolute;left:50%;top:50%;width:190px;height:248px;margin:-124px 0 0 -95px;padding:40px 20px 18px;border-radius:14px;background:#fff;box-shadow:0 24px 60px #10182829;opacity:0;will-change:transform,opacity}
+.intro-file{position:absolute;left:14px;top:-14px;display:flex;align-items:center;gap:6px;padding:5px 9px;border-radius:8px;background:#fff;box-shadow:0 6px 16px #1018281f;font:500 10px/1.2 var(--mono);color:var(--muted);white-space:nowrap}
+.intro-file b{padding:1px 5px;border-radius:4px;background:var(--red);color:#fff;font-size:8px;font-weight:700}
+.intro-card strong{display:block;width:62%;height:12px;border-radius:3px;background:var(--ink)}
+.intro-card em{display:block;width:40%;height:7px;margin:8px 0 20px;border-radius:3px;background:var(--faint)}
+.intro-card i{display:block;height:6px;margin-top:9px;border-radius:3px;background:var(--bg-2)}
+.intro-card i.short{width:65%}
+.intro-card-b strong{background:var(--blue)}
+.intro-logo{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+.intro-lockup{display:flex;align-items:center;gap:18px;height:72px}
+.intro-mark{width:72px;height:72px;flex:none;opacity:0;transform-origin:50% 50%}
+.intro-word{font-size:42px;font-weight:700;letter-spacing:-.05em;color:var(--ink);opacity:0;clip-path:inset(0 100% 0 0);white-space:nowrap}

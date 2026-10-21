@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6f8">
+  <meta name="description" content="Build a resume, share it as a live link, and bring your professional identity and career tools together in one place.">
+  <meta property="og:title" content="CV-MAKER — Your career is bigger than a resume.">
+  <meta property="og:description" content="Build a resume, share it as a live link, and bring your professional identity and career tools together in one place.">
+  <title>CV-MAKER — Your career is bigger than a resume.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="font" href="assets/fonts/geist.woff2" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/site.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="css/intro.css">
+  <script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches && 'animate' in document.documentElement)document.documentElement.classList.add('intro-playing')</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="ic-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="ic-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5M11 18l-6-6 6-6"/></symbol><symbol id="ic-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol><symbol id="ic-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol><symbol id="ic-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol><symbol id="ic-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol><symbol id="ic-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol><symbol id="ic-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol><symbol id="ic-chevron-left" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></symbol><symbol id="ic-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol><symbol id="ic-upload" viewBox="0 0 24 24"><path d="M12 15V4m-4 4 4-4 4 4"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></symbol><symbol id="ic-download" viewBox="0 0 24 24"><path d="M12 4v11m-4-4 4 4 4-4"/><path d="M4 17v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1"/></symbol><symbol id="ic-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1"/><path d="M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1"/></symbol><symbol id="ic-qr" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 17h4v4h-4z"/></symbol><symbol id="ic-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol><symbol id="ic-sparkles" viewBox="0 0 24 24"><path d="M12 3l1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol><symbol id="ic-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.9-3M4 4v4h4"/><path d="M4 13a8 8 0 0 0 14.9 3M20 20v-4h-4"/></symbol><symbol id="ic-chart" viewBox="0 0 24 24"><path d="M4 20V11M10 20V5M16 20v-7M21 20H3"/></symbol><symbol id="ic-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18"/></symbol><symbol id="ic-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="ic-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7.5a3.5 3.5 0 0 0 0-7h-7a3.5 3.5 0 0 1 0-7H16"/></symbol><symbol id="ic-message" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9.6 9.6a2.4 2.4 0 1 1 3.4 2.2c-.6.3-1 .8-1 1.5M12 16.2h.01"/></symbol><symbol id="ic-wand" viewBox="0 0 24 24"><path d="M15 4V2M15 10V8M11 6H9M21 6h-2M17.8 3.2l-1.4 1.4M12.2 8.8l1.4-1.4"/><path d="m3 21 9.5-9.5"/></symbol><symbol id="ic-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol><symbol id="ic-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/></symbol><symbol id="ic-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol><symbol id="ic-building" viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M16 9h2a2 2 0 0 1 2 2v10M3 21h18M8 7h4M8 11h4M8 15h4"/></symbol><symbol id="ic-graduation" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6"/></symbol><symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol><symbol id="ic-lock" viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol><symbol id="ic-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="ic-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></symbol><symbol id="ic-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol><symbol id="ic-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol><symbol id="ic-monitor" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></symbol><symbol id="ic-phone" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></symbol><symbol id="ic-fingerprint" viewBox="0 0 24 24"><path d="M7 4.6A9 9 0 0 1 21 12"/><path d="M3 12a9 9 0 0 1 1.6-5.1"/><path d="M6.2 16.5A12 12 0 0 0 7 12a5 5 0 0 1 10 0c0 1.6-.1 3.2-.4 4.7"/><path d="M12 12c0 3-.6 6-1.8 8.6"/><path d="M15.5 19.3c.3-.9.6-1.9.8-2.9"/><path d="M3.8 15.5c.1-.5.2-1 .2-1.5"/><path d="M9 19.8c.6-1.5 1-3.1 1-4.8"/></symbol><symbol id="ic-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol><symbol id="ic-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13 7 4 4"/></symbol><symbol id="ic-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"/></symbol><symbol id="ic-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol><symbol id="ic-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></symbol><symbol id="ic-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></symbol><symbol id="ic-dashboard" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></symbol><symbol id="ic-logout" viewBox="0 0 24 24"><path d="M15 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3M10 17l-5-5 5-5M5 12h12"/></symbol><symbol id="ic-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol><symbol id="ic-filter" viewBox="0 0 24 24"><path d="M3 5h18l-7 8v6l-4 2v-8z"/></symbol><symbol id="ic-table" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 10v10"/></symbol><symbol id="ic-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></symbol><symbol id="ic-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></symbol><symbol id="ic-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="ic-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21a2 2 0 0 0 4 0"/></symbol><symbol id="ic-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol><symbol id="ic-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></symbol><symbol id="ic-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3.5 6h.01M3.5 12h.01M3.5 18h.01"/></symbol><symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol><symbol id="ic-loader" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/></symbol><symbol id="ic-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M5 7l1 13h12l1-13M9 7V4h6v3"/></symbol><symbol id="ic-doc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol><symbol id="ic-pdf" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8.5 15.5v-3h1.2a1 1 0 0 1 0 2H8.5M13 12.5v3h.8a1.5 1.5 0 0 0 0-3zM17 12.5h-1.6v3M15.4 14h1.2"/></symbol></defs></svg>
+<header class="nav" id="top">
+ <div class="nav-bar">
+  <a class="nav-logo" href="index.html" aria-label="CV-MAKER home"><span class="brand"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0663FC"/><path d="M17 16v32h16" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/><path d="m33 21 8 24 10-29" stroke="#7ee5ff" stroke-width="6" fill="none" stroke-linejoin="round"/></svg><span class="brand-word">CV-MAKER</span></span></a>
+  <nav class="nav-links" aria-label="Main">
+   <a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="about.html">About Us</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-actions">
+   <a class="btn btn-ghost btn-sm nav-signin" href="app/index.html">Sign in</a>
+   <a class="btn btn-primary btn-sm" href="app/builder.html">Create your resume<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a>
+   <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile"><svg class="i " aria-hidden="true"><use href="#ic-menu"/></svg></button>
+  </div>
+ </div>
+ <div class="nav-mobile" id="nav-mobile" hidden>
+  <a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="about.html">About Us</a><a href="contact.html">Contact</a>
+  <a href="for-institutions.html">For Institutions</a>
+  <a href="app/index.html">Sign in</a>
+ </div>
+</header>
+<main id="main">
+<div class="intro" aria-hidden="true">
+ <div class="intro-bg"></div>
+ <div class="intro-card intro-card-a"><span class="intro-file"><b>PDF</b>resume_v1.pdf</span><strong></strong><em></em><i></i><i></i><i class="short"></i><i></i><i class="short"></i></div>
+ <div class="intro-card intro-card-b"><span class="intro-file"><b>PDF</b>resume_final.pdf</span><strong></strong><em></em><i></i><i></i><i class="short"></i><i></i><i class="short"></i></div>
+ <div class="intro-logo"><span class="intro-lockup"><svg class="intro-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0663FC"/><path d="M17 16v32h16" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/><path d="m33 21 8 24 10-29" stroke="#7ee5ff" stroke-width="6" fill="none" stroke-linejoin="round"/></svg><span class="intro-word">CV-MAKER</span></span></div>
+</div>
+<section class="hero sky" aria-labelledby="hero-title">
+ <span class="sky-glow" aria-hidden="true"></span><span class="sky-shape" aria-hidden="true"></span>
+ <svg class="sky-waves" viewBox="0 0 1440 430" preserveAspectRatio="none" aria-hidden="true"><path fill="#e0f2ff" d="M0 70C105 125 56 370 252 350c182-20 413-52 597-127s356-137 591-223v430H0Z"/><path fill="#f0f8ff" d="M0 305c119-95 262-57 367-25s183 85 375 90 316-95 436-113 169-36 262-8v181H0Z"/><path fill="#f5f6f8" d="M0 369c250-170 321-96 474-40s290 96 441 64 314-25 525-73v110H0Z"/></svg>
+ <div class="container hero-copy">
+  <span class="badge reveal"><svg class="i i-sm" aria-hidden="true"><use href="#ic-fingerprint"/></svg>One Global ID · a resume for every role</span>
+  <h1 class="h1 reveal" id="hero-title" style="--d:60ms">Your career is <span class="nowrap">bigger <span class="h1-chip" aria-hidden="true"><svg class="i " aria-hidden="true"><use href="#ic-link"/></svg></span></span> than a resume.</h1>
+  <p class="lead reveal" style="--d:120ms">Build a resume, share it as a live link, and bring your professional identity and career tools together in one place.</p>
+  <div class="hero-ctas reveal" style="--d:180ms"><a class="btn btn-primary btn-lg" href="app/builder.html">Create your resume<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a><a class="btn btn-light btn-lg" href="#video">Watch how it works</a></div>
+ </div>
+ <div class="container"><div class="showcase reveal" aria-label="A static PDF resume next to a live CV-MAKER profile on a laptop">
+  <figure class="sc-side sc-old">
+   <div class="paper" aria-hidden="true">
+    <div class="paper-file"><span class="file-tag"><svg class="i i-sm" aria-hidden="true"><use href="#ic-pdf"/></svg>PDF</span><span class="mono">alex_morgan_resume_final_v3.pdf</span></div>
+    <strong class="paper-name">Alex Morgan</strong>
+    <span class="paper-role">Senior Product Designer</span>
+    <span class="paper-h">Experience</span>
+    <span class="paper-row"><b>Acme Corporation</b><span>2021 – Now</span></span>
+    <i></i><i class="short"></i><i></i>
+    <span class="paper-h">Education</span>
+    <span class="paper-row"><b>State University</b><span>2017</span></span>
+    <i class="short"></i>
+    <span class="paper-h">Skills</span>
+    <i></i><i class="short"></i>
+    <span class="paper-foot"><svg class="i i-sm" aria-hidden="true"><use href="#ic-clock"/></svg>Last edited 3 months ago<span class="stamp">Outdated</span></span>
+   </div>
+   <figcaption><span class="sc-tag">Before</span><strong>A static file</strong><span>Every edit means sending a new PDF. Recruiters keep the old one.</span></figcaption>
+  </figure>
+  <div class="sc-link" aria-hidden="true"><span class="sc-line"></span><span class="sc-badge"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span><span class="sc-line"></span></div>
+  <figure class="sc-side sc-new">
+   <div class="laptop" aria-hidden="true">
+    <div class="laptop-lid"><span class="laptop-cam"></span>
+     <div class="laptop-screen">
+      <div class="hub-bar"><span class="hub-dots"><i></i><i></i><i></i></span><span class="hub-url"><svg class="i i-sm" aria-hidden="true"><use href="#ic-lock"/></svg>cv-maker.app/id/GID-12345-67890</span><span class="live-pill">Live</span></div>
+      <div class="hub-body">
+       <div class="hub-profile">
+        <span class="hub-avatar">AM</span>
+        <strong class="hub-name">Alex Morgan</strong>
+        <span class="hub-role">Senior Product Designer · Acme Corporation</span>
+        <span class="hub-gid mono"><svg class="i i-sm" aria-hidden="true"><use href="#ic-fingerprint"/></svg>GID-12345-67890</span>
+        <div class="hub-qr qr" data-qr="https://cv-maker.app/id/GID-12345-67890"></div>
+        <span class="hub-updated"><svg class="i i-sm" aria-hidden="true"><use href="#ic-refresh"/></svg>Updated today</span>
+       </div>
+       <div class="hub-main">
+        <span class="hub-label">Resumes on this identity</span>
+        <ul class="hub-cvids">
+         <li><span class="hub-doc"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg></span><span><b>Product Designer</b><em class="mono">/cv/design-a1b2</em></span><span class="hub-tag">Primary</span></li>
+         <li><span class="hub-doc"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg></span><span><b>UX Researcher</b><em class="mono">/cv/research-e5f6</em></span></li>
+         <li><span class="hub-doc"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg></span><span><b>Design Lead</b><em class="mono">/cv/lead-g7h8</em></span></li>
+        </ul>
+        <div class="hub-stats"><span><b>1,204</b>views</span><span><b>806</b>unique viewers</span><span><b>3</b>live CVIDs</span></div>
+        <span class="hub-label">Recent views</span>
+        <ul class="hub-views"><li><span>India · Desktop</span><time>2h ago</time></li><li><span>United Kingdom · Mobile</span><time>1d ago</time></li></ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="laptop-base"><span class="laptop-notch"></span></div>
+   </div>
+   <figcaption><span class="sc-tag blue">After</span><strong>One living identity</strong><span>Update once. Everyone with your link sees the latest version.</span></figcaption>
+  </figure>
+ </div>
+ <p class="illustrative">Illustrative example. Views are shown by country and device, never by person.</p></div>
+</section>
+<section class="section film" id="video" aria-labelledby="video-title">
+ <div class="container section-head center reveal">
+  <span class="eyebrow">See it in action</span>
+  <h2 class="h2" id="video-title">Watch a resume come alive.</h2>
+  <p class="lead">From a static PDF to one living identity: a Global ID, a resume for every role, and a link that always shows your latest work.</p>
+ </div>
+ <div class="grow" data-grow>
+  <div class="grow-frame film-frame">
+   <video class="film-video" muted loop playsinline autoplay preload="metadata" poster="assets/livecv-launch-poster.jpg" aria-label="CV-MAKER launch film: why a static resume falls behind, how a Global ID and live CVIDs work, and how to get started" data-film><source src="assets/livecv-launch.mp4" type="video/mp4"></video>
+  </div>
+ </div>
+</section>
+<section class="section" id="problem" aria-labelledby="problem-title">
+ <div class="container">
+  <div class="section-head reveal">
+   <span class="eyebrow">The problem</span>
+   <h2 class="h2" id="problem-title">Your career moves forward. Your resume should too.</h2>
+   <div><p class="lead">Career information ends up scattered, and static files stop matching the person who sent them.</p><a class="link" href="#how" style="margin-top:14px">Explore CV-MAKER <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+  </div>
+  <div class="problem-grid">
+   <article class="problem-card reveal" style="--d:0ms"><span class="label">01</span><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-file"/></svg></span><h3 class="h4">Copies go out of date</h3><p class="small">Every edit means rebuilding and resending a file, while the copies people already have stay as they were.</p></article>
+   <article class="problem-card reveal" style="--d:80ms"><span class="label">02</span><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-layers"/></svg></span><h3 class="h4">Your story is scattered</h3><p class="small">Old files, job portals, email attachments and several versions of the same document, with no single source of truth.</p></article>
+   <article class="problem-card reveal" style="--d:160ms"><span class="label">03</span><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-eye"/></svg></span><h3 class="h4">Little visibility</h3><p class="small">Once a file is sent, there is little sign of whether anyone opened it or what happened next.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section how" id="how" aria-labelledby="how-title">
+ <div class="container">
+  <div class="section-head reveal">
+   <span class="eyebrow">How CV-MAKER works</span>
+   <h2 class="h2" id="how-title">From first draft to a live link, in five steps.</h2>
+   <div><a class="btn btn-dark" href="app/builder.html">Start building<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a></div>
+  </div>
+  <div class="stepper reveal" data-stepper>
+   <div class="stepper-list" role="tablist" aria-label="How CV-MAKER works">
+    <button class="step" type="button" role="tab" id="step-1" aria-controls="step-panel-1" aria-selected="true" tabindex="0"><span class="step-num">1</span><span class="step-copy"><b>Create or upload</b><span>Choose the fresher or experienced path, then start from scratch or upload a PDF or Word resume.</span></span><span class="step-bar"><i></i></span></button>
+    <button class="step" type="button" role="tab" id="step-2" aria-controls="step-panel-2" aria-selected="false" tabindex="-1"><span class="step-num">2</span><span class="step-copy"><b>Refine</b><span>Edit each section and use the writing assistant to improve, shorten or add metrics.</span></span><span class="step-bar"><i></i></span></button>
+    <button class="step" type="button" role="tab" id="step-3" aria-controls="step-panel-3" aria-selected="false" tabindex="-1"><span class="step-num">3</span><span class="step-copy"><b>Preview</b><span>Review the finished resume exactly as it will look.</span></span><span class="step-bar"><i></i></span></button>
+    <button class="step" type="button" role="tab" id="step-4" aria-controls="step-panel-4" aria-selected="false" tabindex="-1"><span class="step-num">4</span><span class="step-copy"><b>Download a PDF or make it live</b><span>Export a submission-ready PDF, or publish a CVID: a permanent link with a QR card.</span></span><span class="step-bar"><i></i></span></button>
+    <button class="step" type="button" role="tab" id="step-5" aria-controls="step-panel-5" aria-selected="false" tabindex="-1"><span class="step-num">5</span><span class="step-copy"><b>Manage identity and tools</b><span>Connect your resumes to your Global ID and open career tools from one dashboard.</span></span><span class="step-bar"><i></i></span></button>
+   </div>
+   <div class="stepper-stage">
+    <div class="step-panel" role="tabpanel" id="step-panel-1" aria-labelledby="step-1"><div class="mini mini-start">
+    <div class="seg" aria-hidden="true"><button aria-pressed="false">Fresher</button><button aria-pressed="true">Experienced</button></div>
+    <div class="mini-options">
+     <div class="mini-option"><svg class="i " aria-hidden="true"><use href="#ic-file"/></svg><b>Build from scratch</b><span>Guided sections</span></div>
+     <div class="mini-option on"><svg class="i " aria-hidden="true"><use href="#ic-upload"/></svg><b>Upload a resume</b><span>PDF or Word</span><span class="mini-progress"><i></i></span><span class="mini-note">Reading your resume…</span></div>
+    </div>
+   </div></div>
+    <div class="step-panel" role="tabpanel" id="step-panel-2" aria-labelledby="step-2" hidden><div class="mini mini-refine">
+    <span class="label">Summary</span>
+    <p class="mini-text">Product designer with 6 years of experience. <mark>Redesigned onboarding for a fintech app.</mark></p>
+    <div class="mini-tools"><span class="chip grey">Improve</span><span class="chip grey">Shorten</span><span class="chip grey">Elaborate</span><span class="chip grey">Professional</span><span class="chip"><svg class="i i-sm" aria-hidden="true"><use href="#ic-sparkles"/></svg>Add metrics</span></div>
+    <div class="mini-suggest"><svg class="i i-sm" aria-hidden="true"><use href="#ic-sparkles"/></svg><span>Redesigned onboarding for a fintech app, <b>lifting activation by 18%</b>.</span></div>
+   </div></div>
+    <div class="step-panel" role="tabpanel" id="step-panel-3" aria-labelledby="step-3" hidden><div class="mini mini-preview">
+    <div class="mini-doc"><strong>ALEX MORGAN</strong><span>Senior Product Designer · Remote</span><i></i><i></i><i class="s"></i><b>Experience</b><i></i><i></i><i class="s"></i><b>Skills</b><i class="s"></i></div>
+    <span class="chip green"><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg>Ready to share</span>
+   </div></div>
+    <div class="step-panel" role="tabpanel" id="step-panel-4" aria-labelledby="step-4" hidden><div class="mini mini-output">
+    <div class="mini-choice"><svg class="i " aria-hidden="true"><use href="#ic-download"/></svg><b>Download PDF</b><span>A static file for applications</span></div>
+    <div class="mini-choice on"><svg class="i " aria-hidden="true"><use href="#ic-link"/></svg><b>Make it live</b><span>A permanent CVID link</span></div>
+    <div class="mini-live"><div class="qr" data-qr="https://cv-maker.app/cv/design-a1b2"></div><div><span class="label">Your CVID</span><b class="mono">cv-maker.app/cv/design-a1b2</b><span class="live-pill">Live</span></div></div>
+   </div></div>
+    <div class="step-panel" role="tabpanel" id="step-panel-5" aria-labelledby="step-5" hidden><div class="mini mini-dash">
+    <div class="mini-gid"><svg class="i " aria-hidden="true"><use href="#ic-fingerprint"/></svg><div><span class="label">Global ID</span><b class="mono">GID-12345-67890</b></div><span class="live-pill">Live</span></div>
+    <div class="mini-row"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg><span>Product Designer</span><span class="chip green">Live</span></div><div class="mini-row"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg><span>UX Researcher</span><span class="chip green">Live</span></div><div class="mini-row"><svg class="i i-sm" aria-hidden="true"><use href="#ic-doc"/></svg><span>Design Lead</span><span class="chip grey">Draft</span></div>
+    <div class="mini-toolrow"><span><svg class="i i-sm" aria-hidden="true"><use href="#ic-target"/></svg>Jobs</span><span><svg class="i i-sm" aria-hidden="true"><use href="#ic-wand"/></svg>Tailor</span><span><svg class="i i-sm" aria-hidden="true"><use href="#ic-route"/></svg>Roadmap</span><span><svg class="i i-sm" aria-hidden="true"><use href="#ic-message"/></svg>Interview</span></div>
+   </div></div>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="section gid-section" id="gid" aria-labelledby="gid-title">
+ <div class="container">
+  <div class="section-head center reveal">
+   <span class="eyebrow">Global ID and CVIDs</span>
+   <h2 class="h2" id="gid-title">One professional identity. Resumes for every direction.</h2>
+   <p class="lead">One person has one Global ID. That GID connects to multiple CVIDs, and each CVID is a different resume with its own link and its own job matches.</p>
+  </div>
+  <div class="gid-map reveal" data-gid-map>
+   <svg class="gid-lines" aria-hidden="true"></svg>
+   <div class="map-gid card">
+    <span class="gid-icon"><svg class="i i-lg" aria-hidden="true"><use href="#ic-fingerprint"/></svg></span>
+    <span class="label">Global ID · your account</span>
+    <strong class="mono">GID-12345-67890</strong>
+    <span class="small">Your persistent identity and public hub: headline, current role and a chosen primary resume.</span>
+   </div>
+   <div class="map-cvids">
+    <button type="button" class="map-cvid card on" data-map-cvid="0"><span class="map-cvid-top"><span class="label">CVID</span><span class="live-pill">Live</span></span><b>Product Designer resume</b><span class="mono small">cv-maker.app/cv/design-a1b2</span><span class="map-matches"><svg class="i i-sm" aria-hidden="true"><use href="#ic-target"/></svg>18 job matches for this CVID</span></button>
+    <button type="button" class="map-cvid card" data-map-cvid="1"><span class="map-cvid-top"><span class="label">CVID</span><span class="live-pill">Live</span></span><b>UX Researcher resume</b><span class="mono small">cv-maker.app/cv/research-e5f6</span><span class="map-matches"><svg class="i i-sm" aria-hidden="true"><use href="#ic-target"/></svg>11 job matches for this CVID</span></button>
+    <button type="button" class="map-cvid card" data-map-cvid="2"><span class="map-cvid-top"><span class="label">CVID</span><span class="live-pill">Live</span></span><b>Design Lead resume</b><span class="mono small">cv-maker.app/cv/lead-g7h8</span><span class="map-matches"><svg class="i i-sm" aria-hidden="true"><use href="#ic-target"/></svg>7 job matches for this CVID</span></button>
+   </div>
+  </div>
+  <div class="gid-defs reveal">
+   <div><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-fingerprint"/></svg></span><b>Global ID</b><p class="small">Account-level. One per person, and it stays with you.</p></div>
+   <div><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-link"/></svg></span><b>CVID</b><p class="small">A permanent shareable link for one specific resume.</p></div>
+   <div><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-target"/></svg></span><b>Job matches</b><p class="small">Found for each CVID, not one feed for the whole account.</p></div>
+  </div>
+  <p class="center-cta reveal"><a class="link" href="features.html#gid">Understand GID and CVID <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></p>
+ </div>
+</section>
+<section class="section benefits" id="benefits" aria-labelledby="benefits-title">
+ <div class="container">
+  <div class="section-head reveal">
+   <span class="eyebrow">Core benefits</span>
+   <h2 class="h2" id="benefits-title">Share a link, not just a file.</h2>
+   <div><p class="lead">Keep a PDF for applications that need one, and share a live resume everywhere else.</p><a class="link" href="features.html" style="margin-top:14px">Explore features <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+  </div>
+  <div class="benefit-grid">
+   <div class="benefit reveal" style="--d:0ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-layers"/></svg></span><b>Structured resume</b><span class="small">Guided sections for fresher and experienced paths.</span></div>
+   <div class="benefit reveal" style="--d:50ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-download"/></svg></span><b>PDF option</b><span class="small">Download a submission-ready file whenever one is needed.</span></div>
+   <div class="benefit reveal" style="--d:100ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-link"/></svg></span><b>Live link</b><span class="small">Share a CVID connected to your latest saved resume.</span></div>
+   <div class="benefit reveal" style="--d:150ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-qr"/></svg></span><b>QR / share card</b><span class="small">Hand over your resume in person with a QR card.</span></div>
+   <div class="benefit reveal" style="--d:200ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-chart"/></svg></span><b>Resume analytics</b><span class="small">See supported views and activity for each CVID.</span></div>
+   <div class="benefit reveal" style="--d:250ms"><span class="tile-icon"><svg class="i " aria-hidden="true"><use href="#ic-sparkles"/></svg></span><b>Connected career tools</b><span class="small">Job Discovery, Tailoring, Roadmap and Interview Prep.</span></div>
+  </div>
+ </div>
+</section>
+<section class="section ring-section" id="tools" aria-labelledby="tools-title">
+ <div class="ring" data-ring>
+  <div class="ring-track" aria-hidden="false">
+   <button type="button" class="ring-card" data-ring-card="0" aria-label="Resume Builder" style="--i:0"><div class="v v-builder"><i class="w60"></i><i class="w40"></i><span></span><i></i><i></i><i class="w70"></i><b class="cursor"></b></div><b>Resume Builder</b></button>
+   <button type="button" class="ring-card" data-ring-card="1" aria-label="Live CV" style="--i:1"><div class="v v-live"><div class="qr" data-qr="https://cv-maker.app/cv/design-a1b2"></div><span class="mono">cv/design-a1b2</span></div><b>Live CV</b></button>
+   <button type="button" class="ring-card" data-ring-card="2" aria-label="Global ID" style="--i:2"><div class="v v-gid"><svg class="i i-lg" aria-hidden="true"><use href="#ic-fingerprint"/></svg><span class="mono">GID-12345</span><span class="v-gid-dots"><i></i><i></i><i></i></span></div><b>Global ID</b></button>
+   <button type="button" class="ring-card" data-ring-card="3" aria-label="Analytics" style="--i:3"><div class="v v-analytics"><i style="--h:40%"></i><i style="--h:62%"></i><i style="--h:48%"></i><i style="--h:80%"></i><i style="--h:66%"></i><i style="--h:92%"></i><i style="--h:74%"></i></div><b>Analytics</b></button>
+   <button type="button" class="ring-card" data-ring-card="4" aria-label="Job Discovery" style="--i:4"><div class="v v-jobs"><div><span></span><b style="--m:92%"></b><em>92%</em></div><div><span></span><b style="--m:81%"></b><em>81%</em></div><div><span></span><b style="--m:67%"></b><em>67%</em></div></div><b>Job Discovery</b></button>
+   <button type="button" class="ring-card" data-ring-card="5" aria-label="Job Tailoring" style="--i:5"><div class="v v-tailor"><span class="v-doc"></span><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg><span class="v-doc on"></span><span class="v-doc on"></span></div><b>Job Tailoring</b></button>
+   <button type="button" class="ring-card" data-ring-card="6" aria-label="Career Roadmap" style="--i:6"><div class="v v-roadmap"><i></i><i></i><i></i><i class="on"></i></div><b>Career Roadmap</b></button>
+   <button type="button" class="ring-card" data-ring-card="7" aria-label="Interview Prep" style="--i:7"><div class="v v-interview"><span>Q</span><span class="a">A</span><span>Q</span></div><b>Interview Prep</b></button>
+  </div>
+  <div class="ring-copy container">
+   <span class="eyebrow">Career tools</span>
+   <h2 class="h2" id="tools-title">More support for every step of your job search.</h2>
+   <div class="ring-detail" aria-live="polite">
+    <div class="ring-info" data-ring-info="0"><b>Resume Builder</b><p class="body">Build a structured resume through a fresher or experienced path, with a preview that follows every edit.</p><a class="link" href="features.html#builder">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="1" hidden><b>Live CV</b><p class="body">Turn a resume into a CVID: a permanent link and QR card you can share anywhere.</p><a class="link" href="features.html#live-cv">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="2" hidden><b>Global ID</b><p class="body">Keep one persistent professional identity that connects all of your CVIDs.</p><a class="link" href="features.html#gid">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="3" hidden><b>Analytics</b><p class="body">See supported views and activity for each CVID, separate from account totals.</p><a class="link" href="features.html#analytics">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="4" hidden><b>Job Discovery</b><p class="body">Browse job matches for a specific CVID, with match strength and why each one fits.</p><a class="link" href="features.html#job-discovery">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="5" hidden><b>Job Tailoring</b><p class="body">Paste a job description to get a tailored resume and a matching cover letter.</p><a class="link" href="features.html#job-tailoring">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="6" hidden><b>Career Roadmap</b><p class="body">Map a path from your current field toward an optional target field.</p><a class="link" href="features.html#career-roadmap">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+    <div class="ring-info" data-ring-info="7" hidden><b>Interview Prep</b><p class="body">Get a study guide, practice questions and a quick reference for a target role.</p><a class="link" href="features.html#interview-prep">View feature <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+   </div>
+   <div class="ring-controls"><button type="button" class="ring-btn" data-ring-prev aria-label="Previous feature"><svg class="i " aria-hidden="true"><use href="#ic-chevron-left"/></svg></button><span class="ring-dots"><i data-ring-dot="0"></i><i data-ring-dot="1"></i><i data-ring-dot="2"></i><i data-ring-dot="3"></i><i data-ring-dot="4"></i><i data-ring-dot="5"></i><i data-ring-dot="6"></i><i data-ring-dot="7"></i></span><button type="button" class="ring-btn" data-ring-next aria-label="Next feature"><svg class="i " aria-hidden="true"><use href="#ic-chevron-right"/></svg></button></div>
+  </div>
+ </div>
+</section>
+<section class="section dark preview" id="preview" aria-labelledby="preview-title">
+ <div class="container">
+  <div class="section-head reveal">
+   <span class="eyebrow">Product preview</span>
+   <h2 class="h2" id="preview-title">Explore the workspace.</h2>
+   <div><p class="lead">A clickable MVP of the CV-MAKER workspace, filled with sample data. Try the dashboard, the builder and a live CV.</p></div>
+  </div>
+  <div class="preview-tabs reveal" data-preview>
+   <div class="seg seg-dark" role="tablist" aria-label="Workspace screens">
+    <button type="button" role="tab" aria-selected="true" data-preview-tab="app/dashboard.html?embed=1">Dashboard</button>
+    <button type="button" role="tab" aria-selected="false" data-preview-tab="app/builder.html?embed=1&amp;step=editor">Builder</button>
+    <button type="button" role="tab" aria-selected="false" data-preview-tab="app/preview.html?embed=1&amp;live=1">Live CV</button>
+   </div>
+   <div class="browser">
+    <div class="browser-bar"><i></i><i></i><i></i><span class="mono" data-preview-url>app.cv-maker.app/dashboard</span><span class="chip grey">Sample data</span></div>
+    <div class="browser-view" data-preview-view><iframe title="CV-MAKER workspace preview" loading="lazy" tabindex="-1" data-src="app/dashboard.html?embed=1"></iframe></div>
+   </div>
+   <div class="preview-ctas"><a class="btn btn-primary btn-lg" href="app/dashboard.html">Explore the workspace<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a><a class="btn btn-ghost btn-lg" href="app/builder.html">Get started</a></div>
+  </div>
+ </div>
+</section>
+<section class="section" id="pricing" aria-labelledby="pricing-title">
+ <div class="container">
+  <div class="section-head reveal">
+   <span class="eyebrow">Pricing preview</span>
+   <h2 class="h2" id="pricing-title">Plans for every stage of a career.</h2>
+   <div><p class="lead">Start with one resume and add live links and career tools as you grow. Names, prices and allowances appear once approved.</p><a class="link" href="pricing.html" style="margin-top:14px">Compare plans <svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></a></div>
+  </div>
+  <div class="plan-grid"><article class="plan-card reveal" style="--d:0ms">
+   <span class="plan-tier">Plan 1</span>
+   <h3 class="plan-name"><span class="ph">[Plan name]</span></h3>
+   <p class="plan-price"><span class="ph">[Price]</span><span class="plan-period">/ <span class="ph">[Billing period]</span></span></p>
+   <a class="btn btn-primary plan-cta" href="app/builder.html">Get started<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a>
+   <div class="plan-feats"><span class="plan-feats-label">Includes</span><ul><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>CVIDs</span><span class="ph">[CVID limit]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>AI writing</span><span class="ph">[AI allowance]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>Analytics</span><span class="ph">[Analytics access]</span></li></ul></div>
+  </article>
+  <article class="plan-card featured reveal" style="--d:80ms">
+   <span class="plan-tier">Plan 2</span>
+   <h3 class="plan-name"><span class="ph">[Plan name]</span></h3>
+   <p class="plan-price"><span class="ph">[Price]</span><span class="plan-period">/ <span class="ph">[Billing period]</span></span></p>
+   <a class="btn btn-light plan-cta" href="app/builder.html">Get started<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a>
+   <div class="plan-feats"><span class="plan-feats-label">Includes</span><ul><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>CVIDs</span><span class="ph">[CVID limit]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>AI writing</span><span class="ph">[AI allowance]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>Analytics</span><span class="ph">[Analytics access]</span></li></ul></div>
+  </article>
+  <article class="plan-card reveal" style="--d:160ms">
+   <span class="plan-tier">Plan 3</span>
+   <h3 class="plan-name"><span class="ph">[Plan name]</span></h3>
+   <p class="plan-price"><span class="ph">[Price]</span><span class="plan-period">/ <span class="ph">[Billing period]</span></span></p>
+   <a class="btn btn-primary plan-cta" href="app/builder.html">Get started<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a>
+   <div class="plan-feats"><span class="plan-feats-label">Includes</span><ul><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>CVIDs</span><span class="ph">[CVID limit]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>AI writing</span><span class="ph">[AI allowance]</span></li><li><svg class="i i-sm" aria-hidden="true"><use href="#ic-check"/></svg><span>Analytics</span><span class="ph">[Analytics access]</span></li></ul></div>
+  </article></div>
+ </div>
+</section>
+<section class="section" id="faq" aria-labelledby="faq-title">
+ <div class="container faq-layout">
+  <div class="faq-side reveal">
+   <span class="eyebrow">FAQs</span>
+   <h2 class="h2" id="faq-title">Questions, answered.</h2>
+   <p class="body">Draft answers. Anything that depends on privacy, pricing or policy is marked pending until it is approved.</p>
+   <button class="btn btn-light" type="button" data-faq-all aria-expanded="false">View all FAQs<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-plus"/></svg></span></button>
+  </div>
+  <div class="acc reveal" data-faq>
+   <details open><summary>What is CV-MAKER?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">CV-MAKER helps you create and manage resumes, share a resume through a live link, maintain a professional identity, and access career tools.</div></details>
+   <details><summary>What is a Global ID (GID)?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">Your GID is your persistent professional identity on CV-MAKER. It acts as a hub for the individual resumes linked to your account.</div></details>
+   <details><summary>What is a CVID?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">A CVID is a shareable link for one specific resume.</div></details>
+   <details><summary>Does my Live CV update when I edit it?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Visibility conditions to confirm</span><br>The live-resume workflow updates the existing CVID when its resume is edited and saved.</div></details>
+   <details><summary>Can I download a PDF?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">Yes. The resume preview offers a PDF download.</div></details>
+   <details><summary>Who can see my live resume?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Pending approval</span><br><span class="ph">[Confirm public visibility, privacy controls and access rules]</span></div></details>
+   <details data-more hidden><summary>Can I create multiple resumes?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Plan limits pending</span><br>Yes. A GID can connect to multiple CVIDs.</div></details>
+   <details data-more hidden><summary>What does Job Tailoring do?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">It uses a job description to generate a tailored resume version and a matching cover letter.</div></details>
+   <details data-more hidden><summary>How much does CV-MAKER cost?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Pending approval</span><br><span class="ph">[Insert approved plan prices and billing periods]</span></div></details>
+   <details data-more hidden><summary>What is the difference between a GID and a CVID?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">The GID represents your overall professional identity; each CVID represents an individual resume, such as one tailored for a particular role.</div></details>
+   <details data-more hidden><summary>Can I upload an existing resume?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">Yes. Upload a Word or PDF resume and it is read into the builder. Review the extracted information for accuracy.</div></details>
+   <details data-more hidden><summary>How does Job Discovery work?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">Job Discovery matches job listings to a specific resume and shows match strength and an explanation of the match, where available.</div></details>
+   <details data-more hidden><summary>What do Career Roadmap and Interview Prep provide?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body">Career Roadmap creates a path from a current field toward an optional target field. Interview Prep provides role-specific study material and practice questions and answers.</div></details>
+   <details data-more hidden><summary>What happens when I reach a usage limit?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Pending approval</span><br><span class="ph">[Insert approved limit, reset period and available next step]</span></div></details>
+   <details data-more hidden><summary>Can I cancel or change my plan?<span class="acc-icon" aria-hidden="true"></span></summary><div class="acc-body"><span class="pending">Pending approval</span><br><span class="ph">[Insert approved cancellation, renewal and plan-change policy]</span></div></details>
+  </div>
+ </div>
+</section>
+<section class="section closing" aria-labelledby="closing-title">
+ <div class="grow" data-grow>
+  <div class="grow-frame closing-panel">
+   <span class="closing-glow" aria-hidden="true"></span>
+   <h2 class="h2" id="closing-title">Build your next opportunity on a stronger foundation.</h2>
+   <p class="lead">Start with a structured resume. Download it as a PDF, or make it live when you're ready.</p>
+   <a class="btn btn-light btn-lg" href="app/builder.html">Create your resume<span class="btn-arrow"><svg class="i i-sm" aria-hidden="true"><use href="#ic-arrow-right"/></svg></span></a>
+  </div>
+ </div>
+ <svg class="sky-waves" viewBox="0 0 1440 430" preserveAspectRatio="none" aria-hidden="true"><path fill="#e0f2ff" d="M0 70C105 125 56 370 252 350c182-20 413-52 597-127s356-137 591-223v430H0Z"/><path fill="#f0f8ff" d="M0 305c119-95 262-57 367-25s183 85 375 90 316-95 436-113 169-36 262-8v181H0Z"/><path fill="#fff" d="M0 369c250-170 321-96 474-40s290 96 441 64 314-25 525-73v110H0Z"/></svg>
+</section>
+</main>
+<footer class="footer">
+ <div class="container footer-grid">
+  <div class="footer-brand">
+   <a class="nav-logo" href="index.html" aria-label="CV-MAKER home"><span class="brand"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#0663FC"/><path d="M17 16v32h16" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round"/><path d="m33 21 8 24 10-29" stroke="#7ee5ff" stroke-width="6" fill="none" stroke-linejoin="round"/></svg><span class="brand-word">CV-MAKER</span></span></a>
+   <p>Your career is bigger than a resume.</p>
+   <p class="small">Made by <a href="https://github.com/sakshamfit">sakshamfit</a></p>
+   <p class="small">Support: <a href="mailto:support@cv-maker.app">support@cv-maker.app</a> <span class="pending">To confirm</span></p>
+  </div>
+  <nav aria-label="Product"><h3 class="label">Product</h3><a href="features.html">Features</a><a href="pricing.html">Pricing</a><a href="for-institutions.html">For Institutions</a><a href="app/builder.html">Create your resume</a></nav>
+  <nav aria-label="Company"><h3 class="label">Company</h3><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="app/index.html">Sign in</a></nav>
+  <nav aria-label="Legal"><h3 class="label">Legal</h3><button type="button" data-legal="Terms of Service">Terms</button><button type="button" data-legal="Privacy Policy">Privacy</button><button type="button" data-legal="Cookie Policy">Cookies</button></nav>
+ </div>
+ <div class="container footer-bottom"><span>© 2026 CV-MAKER · Made by sakshamfit</span><span>Prices, policies and some answers are marked pending until approved.</span></div>
+</footer>
+<script src="js/vendor/qrcode.js" defer></script>
+<script src="js/vendor/lenis.min.js" defer></script>
+<script src="js/core.js" defer></script>
+<script src="js/site.js" defer></script>
+<script src="js/intro.js" defer></script>
+</body>
+</html>
