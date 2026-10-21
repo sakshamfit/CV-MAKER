@@ -234,7 +234,6 @@ Copy both files into `dist/assets/`. See `video/README.md` for the scene list.
 ```
 CV-MAKER/
 ├── README.md                 ← you are here
-├── .github/workflows/pages.yml
 ├── brand/                    original logo JPEG
 ├── dist/                     published static site
 │   ├── index.html            home
@@ -257,9 +256,7 @@ CV-MAKER/
 
 ## Deploy
 
-`.github/workflows/pages.yml` publishes `dist/` to **GitHub Pages** on every push to `main` (and on manual dispatch).
-
-The site is static, so it also deploys cleanly to any CDN or host that can serve a folder (Vercel, Netlify, S3, nginx). Point the host at `dist/`.
+The site is static. Point any host at `dist/` — GitHub Pages, Vercel, Netlify, S3 or nginx all work. For GitHub Pages, publish the `dist` folder (or copy its contents to `/docs`).
 
 ---
 
